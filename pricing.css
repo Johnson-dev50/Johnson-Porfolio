@@ -1,0 +1,316 @@
+/* Universal Tags */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #333;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-attachment: fixed;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h2{
+    color: #000;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -3px;
+}
+li{
+    list-style-type: none;
+}
+/* Navigation Bar */
+.navbar{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    position: sticky;
+    backdrop-filter: blur(30px);
+    box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+}
+.navbar #logo{
+    top: 20px;
+    color: #333;
+    cursor: pointer;
+    font-size: 210%;
+    transition: .48s;
+    font-weight: 100;
+    position: relative;
+    font-family: serif;
+    letter-spacing: 4px;
+}
+.navbar #logo:hover{
+    color: burlywood;
+}
+.navbar #menulist{
+    top: -40px;
+    right: 40px;
+    text-align: right;
+    position: relative;
+}
+.navbar #menulist li{
+    margin: 1px;
+    display: inline-block;
+}
+.navbar #menulist li a{
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    transition: .48s;
+    font-family: serif;
+}
+.navbar #menulist li a:hover{
+    color: burlywood;
+}
+/* PicDiv */
+.picdiv{
+    height: 450px;
+    text-align: left;
+    padding: 140px 20px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/backgrounds/finance/pexels-photo-2068975.jpeg);
+}
+.picdiv .bigg{
+    color: #fff;
+    display: block;
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 40px;
+    letter-spacing: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.picdiv button{
+    margin: 6px;
+    border: none;
+    padding: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Projects & Templates */
+.projects{
+    padding: 40px;
+    text-align: center;
+}
+.projects .project_box{
+    width: 18%;
+    margin: 2px;
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+    transition: .48s ease;
+    background-color: #000;
+}
+.projects .project_box:hover{
+    box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+}
+.projects .project_box img{
+    width: 100%;
+    height: 220px;
+    border: .02px solid #000;
+}
+.projects .project_box .text{
+    padding: 30px;
+    transition: .48s;
+    text-align: center;
+    background-color: #ddd;
+}
+.projects .project_box:hover .text{
+    color: #fff;
+    background-color: #555;
+}
+.projects .project_box .text h3{
+    font-size: 22px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.projects .project_box .text .type{
+    padding: 10px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    transition: .48s;
+    margin: 2px auto;
+    width: fit-content;
+    text-align: center;
+    background-color: #000;
+}
+/* Suggest a Price */
+.suggest{
+    padding: 40px;
+    text-align: left;
+}
+.pricebox{
+    padding: 20px;
+    font-family: sans-serif;
+}
+.pricebox .suggestion{
+    width: 30%;
+    padding: 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .48s;
+    margin: 4px auto;
+    text-align: center;
+    border-radius: 40px;
+    font-family: cursive;
+    display: inline-block;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+.pricebox .suggestion:hover{
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+/* My Prices */
+.myprices{
+    padding: 40px;
+}
+.price_box{
+    color: gray;
+    display: flex;
+}
+.price_container{
+    width: 30%;
+    margin: 4px;
+    padding: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: serif;
+    flex-direction: row;
+}
+.price_container h1{
+    padding: 30px;
+    color: #aaa;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: left;
+    font-family: fantasy;
+    background-color: #000;
+}
+.price_container .price{
+    color: #000;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.price_container .purchase{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .28s;
+    margin: 0px auto;
+    font-family: serif;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #aaa;
+}
+.price_container .purchase:hover{
+    color: #aaa;
+    background-color: #000;
+}
+/* Why Choose Johnson */
+.choose{
+    padding: 40px;
+    background-color: #e0e0e0;
+}
+/* Boxes */
+.container{
+    width: 100%;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+.dv{
+    width: 270px;
+    margin: 10px;
+    padding: 20px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 2px 10px 20px 2px rgba(0, 0, 0, 0.19);
+}
+/* Support */
+.support{
+    padding: 80px;
+    color: #000;
+    text-align: right;
+    font-family: sans-serif;
+    background-size: contain;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-image: url(../images/iconpics/phne.jpg);
+}
+.support p{
+    text-align: center;
+}
+.support h1{
+    font-weight: 100;
+    margin: 6px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.support button{
+    border: none;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 100;
+    margin: 6px auto;
+    border-radius: 40px;
+    background-color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Value */
+.value{
+    padding: 40px;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../images/ppl/smile.webp);
+}
+.value h2{
+    color: #e0e0e0;
+}
+.value .text{
+    text-align: center;
+}
+.value .text .text-box{
+    width: 270px;
+    margin: 10px;
+    padding: 20px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ffffffaa;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 2px 10px 20px 2px rgba(0, 0, 0, 0.19);   
+}

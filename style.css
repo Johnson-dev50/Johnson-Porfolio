@@ -1,0 +1,1167 @@
+/* Universal Tags */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: serif;
+    background-color: #000;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: burlywood;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+/* Navigation Bar */
+.navbar{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    position: sticky;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-bottom: 2px solid #aaa;
+    box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+}
+.navbar #logo{
+    top: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 210%;
+    transition: .48s;
+    font-weight: 100;
+    position: relative;
+    font-family: serif;
+    letter-spacing: 4px;
+}
+.navbar #logo:hover{
+    color: burlywood;
+}
+.navbar #menulist{
+    top: -40px;
+    right: 40px;
+    text-align: right;
+    position: relative;
+}
+.navbar #menulist li{
+    margin: 1px;
+    display: inline-block;
+}
+.navbar #menulist li a{
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 200;
+    transition: .48s;
+}
+.navbar #menulist li a:hover{
+    color: burlywood;
+}
+/* Profile */
+.profile{
+    padding: 50px;
+    color: #fff;
+    height: 440px;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #000;
+    border-bottom: 2px solid #fff;
+}
+.profile .proflie_pic{
+    float: left;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    cursor: pointer;
+    transition: .48s;
+    border-radius: 160px;
+    border: 2px solid #fff;
+}
+.profile .proflie_pic:hover{
+    width: 345px;
+    height: 345px;
+    border: 4px solid lightskyblue;
+}
+.profile h1{
+    cursor: pointer;
+    font-size: 60px;
+    transition: .48s;
+    font-weight: 100;
+    letter-spacing: -4px;
+    font-family: sans-serif;
+}
+.profile h1:hover{
+    font-size: 64px;
+    letter-spacing: -2px;
+    color: lightskyblue;
+}
+.profile h3{
+    font-weight: 200;
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.profile .profie_button{
+    border: none;
+    padding: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .48s;
+    background: none;
+    font-family: serif;
+    border-bottom: 2px solid #fff;
+}
+.profile .profie_button:hover{
+    border-bottom: 4px solid #fff;
+}
+/* Projects & Templates */
+.projects{
+    padding: 40px;
+    text-align: center;
+}
+.projects .project_box{
+    width: 18%;
+    margin: 2px;
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+    transition: .48s ease;
+    background-color: #000;
+}
+.projects .project_box:hover{
+    box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+}
+.projects .project_box:hover .text{
+    background-color: burlywood;
+}
+.projects .project_box:hover .type{
+    box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+}
+.projects .project_box img{
+    width: 100%;
+    height: 220px;
+    border: .02px solid #000;
+}
+.projects .project_box .text{
+    padding: 30px;
+    transition: .48s;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.projects .project_box .text h3{
+    font-size: 22px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.projects .project_box .text .type{
+    padding: 10px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    transition: .48s;
+    margin: 2px auto;
+    width: fit-content;
+    text-align: center;
+    background-color: #000;
+}
+/* Why Choose Johnson */
+.choose{
+    padding: 40px 0px;
+}
+.choose_container{
+    display: flex;
+}
+.choose .choose_box{
+    width: 22%;
+    padding: 10px;
+    color: #000;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: .48s;
+    text-align: center;
+    flex-direction: row;
+    background-color: #fff;
+}
+.choose .choose_box:hover{
+    color: #fff;
+    background-color: #000;
+}
+.choose .choose_box img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+}
+.choose .choose_box h1{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+/* My Skills */
+.skills{
+    padding: 40px;
+    text-align: left;
+}
+.skills h1{
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+.skill_container{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #777;
+}
+.skill_container .box{
+    color: #fff;
+    text-align: right;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+.long{
+    width: 94%;
+}
+.short{
+    width: 90%;
+    
+}
+.shorter{
+    width: 87%;
+}
+.shortest{
+    width: 83%;
+}
+.skills .download{
+    border: none;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .48s;
+    background: none;
+    font-family: serif;
+    margin: 0px auto;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+/* My Pricing */
+.pricing{
+    padding: 40px;
+    text-align: center;
+}
+.price_box{
+    color: #777;
+    display: flex;
+}
+.price_container{
+    width: 30%;
+    margin: 4px;
+    padding: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    font-family: serif;
+    border-bottom: 2px solid #fff;
+}
+.price_container h1{
+    padding: 30px;
+    color: #aaa;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: left;
+    font-family: fantasy;
+    background-color: gold;
+}
+.price_container .price{
+    color: gold;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.price_container .purchase{
+    border: none;
+    padding: 20px;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .28s;
+    margin: 0px auto;
+    font-family: serif;
+    text-align: center;
+    background: none;
+    border-bottom: 2px solid #aaa;
+}
+.price_container .purchase:hover{
+    border-bottom: 4px solid #aaa;
+}
+.pricing .pricing_btn{
+    border: none;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .48s;
+    background: none;
+    font-family: serif;
+    margin: 0px auto;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+/* A little about me */
+.history{
+    padding: 40px 0px;
+}
+.history_container{
+    height: 200px;
+    width: 100%;
+    padding: 20px 0px;
+}
+.history_container .und_one{
+    width: 30%;
+    float: left;    
+    margin: 4px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .48s;
+    margin-left: 60px;
+    text-align: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position:  20% left;
+    background-image: url("images/ppl/yui.jpg");
+    box-shadow: 2px 4px 8px 2px rgba(255, 255, 255, 0.2), 2px 10px 20px 2px rgba(255, 255, 255, 0.19);
+}
+.history_container .und_one #number{
+    font-size: 80px;
+    font-weight: 100;
+    color: burlywood;
+}
+.history_container .und{
+    width: 20%;
+    float: left;
+    margin: 4px;
+    height: 100%;
+    color: gold;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 200;
+    transition: .48s;
+    text-align: center;
+    box-sizing: border-box;
+}
+.history_container .und:hover{
+    box-shadow: 4px 10px 18px 4px rgba(255, 255, 255, 0.7);
+}
+.history_container .und .number{
+    font-size: 80px;
+    font-weight: 600;
+    color: burlywood;
+}
+.worker{
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-image: url("../images/backgrounds/ppl/kk.jpg");
+}
+.partners{
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("../images/backgrounds/food/coffee-1.jpg");
+}
+.plts{
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-image: url("../images/backgrounds/food/wine (1).jpg");
+}
+/* Logo */
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.logo_image{
+    width: 40%;
+    cursor: pointer;
+    transition: .48s;
+}
+.logo_image:hover{
+    box-shadow: 4px 10px 18px 4px rgba(255, 255, 255, 0.7);
+}
+.logo h1{
+    font-family: cursive;
+}
+/* About Me */
+.about{
+    padding: 40px;
+    color: #777;
+    background-color: #fff;
+}
+/* Boxes */
+.container{
+    width: 100%;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+.dv{
+    width: 270px;
+    margin: 10px;
+    padding: 20px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 2px 10px 20px 2px rgba(0, 0, 0, 0.19);
+}
+/* Suggest a Price */
+.suggest{
+    padding: 40px;
+    text-align: left;
+}
+.pricebox{
+    padding: 20px;
+    font-family: sans-serif;
+}
+.pricebox .suggestion{
+    width: 30%;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .48s;
+    margin: 4px auto;
+    text-align: center;
+    border-radius: 40px;
+    font-family: cursive;
+    display: inline-block;
+    background-color: #000;
+    border: 2px solid #fff;
+}
+.pricebox .suggestion:hover{
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+/* Socials */
+.socials{
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+}
+.social_container{
+    padding: 40px;
+}
+.socialbox{
+    font-size: 22px;
+}
+.socialbox .icon{
+    width: 50px;
+    height: 50px;
+}
+/* Newsletter */
+.newsletter{
+    padding: 40px;
+}
+.newsletter input{
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: .48s;
+    text-align: center;
+    font-family: cursive;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.newsletter input:hover{
+    background-color: #fff;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter .news_email{
+    width: 70%;
+    background-color: #aaa;
+}
+.newsletter button{
+    width: 28%;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: .48s;
+    text-align: center;
+    font-family: cursive;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #777;
+}
+/* Footer */
+footer{
+    color: #777;
+    background-color: #fff;
+}
+.left,.right,.center{
+    width: 32%;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-left: 2px dotted #000;
+}
+.left img{
+    width: 100%;
+    height: 300px;
+}
+.center{
+    font-size: 18px;
+    text-align: center;
+}
+.center h3{
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+.center a{
+    margin: 4px;
+    color: #000;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+.right{
+    font-size: 18px;
+    text-align: center;
+}
+.right h3{
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+.right button{
+    margin: 4px;
+    color: #000;
+    padding: 20px;
+    display: block;
+    font-size: 24px;
+    background: none;
+    font-weight: 100;
+    border-radius: 30px;
+    letter-spacing: -1px;
+    border: 1px solid #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 520px) {
+    /* Universal Tags */
+    body{
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: serif;
+        overflow-x: hidden;
+        background-color: #000;
+        box-sizing: border-box;
+        background-attachment: fixed;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 300;
+        color: burlywood;
+        text-align: center;
+    }
+    li{
+        list-style-type: none;
+    }
+    /* Navigation Bar */
+    .navbar{
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        display: block;
+        position: sticky;
+        backdrop-filter: blur(30px);
+        border-bottom: 2px solid #aaa;
+        box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+    }
+    .navbar #logo{
+        top: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 160%;
+        transition: .48s;
+        font-weight: 100;
+        position: relative;
+        font-family: serif;
+        letter-spacing: 4px;
+    }
+    .navbar #logo:hover{
+        color: burlywood;
+    }
+    .navbar #menulist{
+        top: -40px;
+        right: 40px;
+        display: none;
+        text-align: right;
+        position: relative;
+    }
+    .navbar #menulist li{
+        margin: 1px;
+        display: inline-block;
+    }
+    .navbar #menulist li a{
+        color: #fff;
+        padding: 20px;
+        font-size: 18px;
+        font-family: serif;
+        font-weight: 200;
+        transition: .48s;
+    }
+    .navbar #menulist li a:hover{
+        color: burlywood;
+    }
+    /* Profile */
+    .profile{
+        padding: 50px;
+        color: #fff;
+        height: 440px;
+        font-size: 16px;
+        text-align: center;
+        font-family: sans-serif;
+        background-color: #000;
+        border-bottom: 2px solid #fff;
+    }
+    .profile .proflie_pic{
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin: 20px;
+        cursor: pointer;
+        transition: .48s;
+        border-radius: 160px;
+        border: 2px solid #fff;
+    }
+    .profile .proflie_pic:hover{
+        width: 345px;
+        height: 345px;
+        border: 4px solid lightskyblue;
+    }
+    .profile h1{
+        cursor: pointer;
+        font-size: 60px;
+        transition: .48s;
+        font-weight: 100;
+        display: inline;
+        letter-spacing: -4px;
+        font-family: sans-serif;
+    }
+    .profile h1:hover{
+        font-size: 64px;
+        letter-spacing: -2px;
+        color: lightskyblue;
+    }
+    .profile h3{
+        font-weight: 200;
+        font-family: serif;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .profile .profie_button{
+        border: none;
+        padding: 30px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 24px;
+        transition: .48s;
+        background: none;
+        font-family: serif;
+        border-bottom: 2px solid #fff;
+    }
+    .profile .profie_button:hover{
+        border-bottom: 4px solid #fff;
+    }
+    /* Projects & Templates */
+    .projects{
+        padding: 40px;
+        text-align: center;
+    }
+    .projects .project_box{
+        width: 18%;
+        margin: 2px;
+        cursor: pointer;
+        color: #000;
+        display: inline-block;
+        transition: .48s ease;
+        background-color: #000;
+    }
+    .projects .project_box:hover{
+        box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+    }
+    .projects .project_box:hover .text{
+        background-color: burlywood;
+    }
+    .projects .project_box:hover .type{
+        box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.7);
+    }
+    .projects .project_box img{
+        width: 100%;
+        height: 220px;
+        border: .02px solid #000;
+    }
+    .projects .project_box .text{
+        padding: 30px;
+        transition: .48s;
+        text-align: center;
+        background-color: blanchedalmond;
+    }
+    .projects .project_box .text h3{
+        font-size: 22px;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+    .projects .project_box .text .type{
+        padding: 10px;
+        color: #fff;
+        display: block;
+        font-size: 14px;
+        transition: .48s;
+        margin: 2px auto;
+        width: fit-content;
+        text-align: center;
+        background-color: #000;
+    }
+    /* Why Choose Johnson */
+    .choose{
+        padding: 40px 0px;
+    }
+    .choose_container{
+        display: flex;
+    }
+    .choose .choose_box{
+        width: 22%;
+        padding: 10px;
+        color: #000;
+        flex-wrap: wrap;
+        cursor: pointer;
+        transition: .48s;
+        text-align: center;
+        flex-direction: row;
+        background-color: #fff;
+    }
+    .choose .choose_box:hover{
+        color: #fff;
+        background-color: #000;
+    }
+    .choose .choose_box img{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 40px;
+    }
+    .choose .choose_box h1{
+        font-size: 16px;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+    /* My Skills */
+    .skills{
+        padding: 40px;
+        text-align: left;
+    }
+    .skills h1{
+        font-weight: 100;
+        letter-spacing: -2px;
+    }
+    .skill_container{
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        background-color: #777;
+    }
+    .skill_container .box{
+        color: #fff;
+        text-align: right;
+        padding: 12px 20px;
+        border-radius: 20px;
+        font-family: sans-serif;
+        border: 1px solid #fff;
+        background-color: #000;
+    }
+    .long{
+        width: 94%;
+    }
+    .short{
+        width: 90%;
+        
+    }
+    .shorter{
+        width: 87%;
+    }
+    .shortest{
+        width: 83%;
+    }
+    .skills .download{
+        border: none;
+        padding: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 24px;
+        transition: .48s;
+        background: none;
+        font-family: serif;
+        margin: 0px auto;
+        text-align: center;
+        border-bottom: 2px solid #fff;
+    }
+    /* My Pricing */
+    .pricing{
+        padding: 40px;
+        text-align: center;
+    }
+    .price_box{
+        color: #777;
+        display: flex;
+    }
+    .price_container{
+        width: 30%;
+        margin: 4px;
+        padding: 20px;
+        cursor: pointer;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: row;
+        font-family: serif;
+        border-bottom: 2px solid #fff;
+    }
+    .price_container h1{
+        padding: 30px;
+        color: #aaa;
+        font-size: 40px;
+        font-weight: 100;
+        text-align: left;
+        font-family: fantasy;
+        background-color: gold;
+    }
+    .price_container .price{
+        color: gold;
+        font-size: 26px;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+    .price_container .purchase{
+        border: none;
+        padding: 20px;
+        color: #aaa;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .28s;
+        margin: 0px auto;
+        font-family: serif;
+        text-align: center;
+        background: none;
+        border-bottom: 2px solid #aaa;
+    }
+    .price_container .purchase:hover{
+        border-bottom: 4px solid #aaa;
+    }
+    .pricing .pricing_btn{
+        border: none;
+        padding: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 24px;
+        transition: .48s;
+        background: none;
+        font-family: serif;
+        margin: 0px auto;
+        text-align: center;
+        border-bottom: 2px solid #fff;
+    }
+    /* A little about me */
+    .history{
+        padding: 40px 0px;
+    }
+    .history_container{
+        height: 200px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .history_container .und_one{
+        width: 30%;
+        float: left;    
+        margin: 4px;
+        height: 100%;
+        cursor: pointer;
+        font-size: 30px;
+        transition: .48s;
+        margin-left: 60px;
+        text-align: center;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-position:  20% left;
+        background-image: url("images/ppl/yui.jpg");
+        box-shadow: 2px 4px 8px 2px rgba(255, 255, 255, 0.2), 2px 10px 20px 2px rgba(255, 255, 255, 0.19);
+    }
+    .history_container .und_one #number{
+        font-size: 80px;
+        font-weight: 100;
+        color: burlywood;
+    }
+    .history_container .und{
+        width: 20%;
+        float: left;
+        margin: 4px;
+        height: 100%;
+        color: gold;
+        padding: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 200;
+        transition: .48s;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .history_container .und:hover{
+        box-shadow: 4px 10px 18px 4px rgba(255, 255, 255, 0.7);
+    }
+    .history_container .und .number{
+        font-size: 80px;
+        font-weight: 600;
+        color: burlywood;
+    }
+    .worker{
+        background-repeat: no-repeat;
+        background-position: 50% 80%;
+        background-image: url("../images/backgrounds/ppl/kk.jpg");
+    }
+    .partners{
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-image: url("../images/backgrounds/food/coffee-1.jpg");
+    }
+    .plts{
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        background-image: url("../images/backgrounds/food/wine (1).jpg");
+    }
+    /* Logo */
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .logo_image{
+        width: 40%;
+        cursor: pointer;
+        transition: .48s;
+    }
+    .logo_image:hover{
+        box-shadow: 4px 10px 18px 4px rgba(255, 255, 255, 0.7);
+    }
+    .logo h1{
+        font-family: cursive;
+    }
+    /* About Me */
+    .about{
+        padding: 40px;
+        color: #777;
+        background-color: #fff;
+    }
+    /* Boxes */
+    .container{
+        width: 100%;
+        padding: 0px;
+        display: block;
+        text-align: center;
+    }
+    .dv{
+        width: 270px;
+        margin: 10px;
+        padding: 20px;
+        color: #000;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        box-sizing: border-box;
+        box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 2px 10px 20px 2px rgba(0, 0, 0, 0.19);
+    }
+    /* Suggest a Price */
+    .suggest{
+        padding: 40px;
+        text-align: left;
+    }
+    .pricebox{
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    .pricebox .suggestion{
+        width: 30%;
+        padding: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        transition: .48s;
+        margin: 4px auto;
+        text-align: center;
+        border-radius: 40px;
+        font-family: cursive;
+        display: inline-block;
+        background-color: #000;
+        border: 2px solid #fff;
+    }
+    .pricebox .suggestion:hover{
+        color: #000;
+        border: 2px solid #000;
+        background-color: #fff;
+    }
+    /* Socials */
+    .socials{
+        color: #000;
+        text-align: center;
+        background-color: #fff;
+    }
+    .social_container{
+        padding: 40px;
+    }
+    .socialbox{
+        font-size: 22px;
+    }
+    .socialbox .icon{
+        width: 50px;
+        height: 50px;
+    }
+    /* Newsletter */
+    .newsletter{
+        padding: 40px;
+    }
+    .newsletter input{
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        transition: .48s;
+        text-align: center;
+        font-family: cursive;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    .newsletter input:hover{
+        background-color: #fff;
+    }
+    .newsletter input:focus{
+        outline: none;
+    }
+    .newsletter .news_email{
+        width: 70%;
+        background-color: #aaa;
+    }
+    .newsletter button{
+        width: 28%;
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        transition: .48s;
+        text-align: center;
+        font-family: cursive;
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: #777;
+    }
+    /* Footer */
+    footer{
+        color: #777;
+        background-color: #fff;
+    }
+    .left,.right,.center{
+        width: 32%;
+        padding: 20px;
+        display: inline-block;
+        box-sizing: border-box;
+        border-left: 2px dotted #000;
+    }
+    .left img{
+        width: 100%;
+        height: 300px;
+    }
+    .center{
+        font-size: 18px;
+        text-align: center;
+    }
+    .center h3{
+        font-size: 22px;
+        font-weight: 100;
+        letter-spacing: -1px;
+    }
+    .center a{
+        margin: 4px;
+        color: #000;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        border-radius: 30px;
+        border: 1px solid #000;
+    }
+    .right{
+        font-size: 18px;
+        text-align: center;
+    }
+    .right h3{
+        font-size: 22px;
+        font-weight: 100;
+        letter-spacing: -1px;
+    }
+    .right button{
+        margin: 4px;
+        color: #000;
+        padding: 20px;
+        display: block;
+        font-size: 24px;
+        background: none;
+        font-weight: 100;
+        border-radius: 30px;
+        letter-spacing: -1px;
+        border: 1px solid #000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
